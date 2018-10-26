@@ -1,0 +1,37 @@
+{
+  "name": "eac-demo",
+  "version": "1.0.0",
+  "description": "Demo of recurring payment for Devcon IV workshop.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "truffle compile",
+    "ganache": "ganache-cli --port 8505",
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chronologic/eac-demo.git"
+  },
+  "keywords": [
+    "smart-contracts",
+    "eac",
+    "scheduling",
+    "ethereum"
+  ],
+  "author": "L_sa_ether_",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/chronologic/eac-demo/issues"
+  },
+  "homepage": "https://github.com/chronologic/eac-demo#readme",
+  "devDependencies": {
+    "ganache-cli": "^6.1.8",
+    "truffle": "^4.1.14"
+  },
+  "dependencies": {
+    "@ethereum-alarm-clock/contracts": "^1.0.0-rc.2"
+  }
+}
